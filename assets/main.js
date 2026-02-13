@@ -13,7 +13,7 @@ arrowLeft.addEventListener("click", () => {
 
     dots[i].classList.add("dot_selected")
 
-    banner.setAttribute("src", "../assets/images/slideshow/" + slides[i].image)
+    banner.setAttribute("src", "./assets/images/slideshow/" + slides[i].image)
     tagLine.innerHTML = slides[i].tagLine
 
 })
@@ -32,6 +32,6 @@ arrowRight.addEventListener("click", () => {
 
     dots[i].classList.add("dot_selected")
 
-    banner.setAttribute("src", "../assets/images/slideshow/" + slides[i].image)
+    banner.setAttribute("src", "./assets/images/slideshow/" + slides[i].image)
     tagLine.innerHTML = slides[i].tagLine
 })
