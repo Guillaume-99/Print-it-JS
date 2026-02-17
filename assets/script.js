@@ -3,13 +3,11 @@ const arrowLeft = document.querySelector(".arrow_left")
 const arrowRight = document.querySelector(".arrow_right")
 
 
-const dotSelected = document.querySelector(".dot_selected")
-const dots = document.querySelectorAll(".dot")
+const dots = document.querySelector(".dots")
 let i = 0
 
 const banner = document.querySelector(".banner-img")
 const tagLine = document.querySelector("#banner p")
-
 
 
 
@@ -34,10 +32,3 @@ const slides = [
 		"tagLine": "Autocollants <span>avec découpe laser sur mesure</span>"
 	}
 ]
-
-
-
-
-
-
-
