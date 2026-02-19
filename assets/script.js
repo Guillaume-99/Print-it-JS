@@ -2,13 +2,14 @@
 const arrowLeft = document.querySelector(".arrow_left")
 const arrowRight = document.querySelector(".arrow_right")
 
+const banner = document.querySelector(".banner-img")
+const tagLine = document.querySelector("#banner p")
 
 const dots = document.querySelector(".dots")
+const dotElements = document.querySelectorAll(".dot")
 
 let i = 0
 
-const banner = document.querySelector(".banner-img")
-const tagLine = document.querySelector("#banner p")
 
 
 
@@ -116,4 +117,3 @@ function init() {
 	navCarousel()
 }
 init()
-const dotElements = document.querySelectorAll(".dot")
