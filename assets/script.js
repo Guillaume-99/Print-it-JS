@@ -6,7 +6,7 @@ const banner = document.querySelector(".banner-img")
 const tagLine = document.querySelector("#banner p")
 
 const dots = document.querySelector(".dots")
-const dotElements = document.querySelectorAll(".dot")
+let dotElements = document.querySelectorAll(".dot")
 
 let i = 0
 
@@ -54,6 +54,7 @@ function createDot() {
 
 		dots.appendChild(dot)
 	}
+	dotElements = document.querySelectorAll(".dot")
 }
 
 /************************************** Carrousel Image Banner ***************************/
@@ -78,7 +79,6 @@ function back() {
 
 		tagLine.innerHTML = slides[i].tagLine
 	}
-
 	)
 }
 
@@ -100,6 +100,7 @@ function next() {
 
 		tagLine.innerHTML = slides[i].tagLine
 	}
+
 	)
 }
 
@@ -114,6 +115,7 @@ function navCarousel() {
 
 function init() {
 	createDot()
+	// dotElements = document.querySelectorAll(".dot")
 	navCarousel()
 }
 init()
